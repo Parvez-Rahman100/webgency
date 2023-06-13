@@ -13,17 +13,17 @@ const Navbar = () => {
         </div>
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
-            <li>
+            <li className="text-xl font-normal">
               <a href="/">Home</a>
             </li>
             <li>
               <details>
-                <summary>About</summary>
+                <summary className="text-xl font-normal">About</summary>
                 <ul className="p-2 bg-base-100">
-                  <li>
+                  <li className="text-xl font-normal">
                     <a href=" #">Link 1</a>
                   </li>
-                  <li>
+                  <li className="text-xl font-normal">
                     <a href=" #">Link 2</a>
                   </li>
                 </ul>
@@ -31,12 +31,12 @@ const Navbar = () => {
             </li>
             <li>
               <details>
-                <summary>Pages</summary>
+                <summary className="text-xl font-normal">Pages</summary>
                 <ul className="p-2 bg-base-100">
-                  <li>
+                  <li className="text-xl font-normal">
                     <a href=" #">Link 1</a>
                   </li>
-                  <li>
+                  <li className="text-xl font-normal">
                     <a href=" #">Link 2</a>
                   </li>
                 </ul>
@@ -44,28 +44,28 @@ const Navbar = () => {
             </li>
             <li>
               <details>
-                <summary>Our Services</summary>
+                <summary className="text-xl font-normal">Our Services</summary>
                 <ul className="p-2 bg-base-100">
-                  <li>
+                  <li className="text-xl font-normal">
                     <a href=" #">Link 1</a>
                   </li>
-                  <li>
+                  <li className="text-xl font-normal">
                     <a href=" #">Link 2</a>
                   </li>
                 </ul>
               </details>
             </li>
-            <li>
+            <li className="text-xl font-normal">
               <a href="/">Portfolio</a>
             </li>
             <li>
               <details>
-                <summary>Blog</summary>
+                <summary className="text-xl font-normal">Blog</summary>
                 <ul className="p-2 bg-base-100">
-                  <li>
+                  <li className="text-xl font-normal">
                     <a href=" #">Link 1</a>
                   </li>
-                  <li>
+                  <li className="text-xl font-normal">
                     <a href=" #">Link 2</a>
                   </li>
                 </ul>

@@ -1,5 +1,6 @@
 import "./App.css";
 import AboutCompany from "./Components/AboutCompany/AboutCompany";
+import Counter from "./Components/Counter/Counter";
 import Hero from "./Components/Hero/Hero";
 import Navbar from "./Components/Navbar/Navbar";
 import SlidingText from "./Components/SlidingText/SlidingText";
@@ -13,6 +14,7 @@ function App() {
       <AboutCompany />
       <SlidingText />
       <WhatWeDo />
+      <Counter />
     </div>
   );
 }
