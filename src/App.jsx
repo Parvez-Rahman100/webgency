@@ -6,6 +6,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import PopularServices from "./Components/PopularServices/PopularServices";
 import SlidingText from "./Components/SlidingText/SlidingText";
 import SlidingTextTwo from "./Components/SlidingTextTwo/SlidingTextTwo";
+import TeamMembers from "./Components/TeamMembers/TeamMembers";
 import WhatWeDo from "./Components/WhatWeDo/WhatWeDo";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Counter />
       <PopularServices />
       <SlidingTextTwo />
+      <TeamMembers />
     </div>
   );
 }
