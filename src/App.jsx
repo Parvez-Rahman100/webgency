@@ -4,6 +4,7 @@ import Counter from "./Components/Counter/Counter";
 import Hero from "./Components/Hero/Hero";
 import Navbar from "./Components/Navbar/Navbar";
 import PopularServices from "./Components/PopularServices/PopularServices";
+import PricePackage from "./Components/PricePackage/PricePackage";
 import SlidingText from "./Components/SlidingText/SlidingText";
 import SlidingTextTwo from "./Components/SlidingTextTwo/SlidingTextTwo";
 import TeamMembers from "./Components/TeamMembers/TeamMembers";
@@ -21,6 +22,7 @@ function App() {
       <PopularServices />
       <SlidingTextTwo />
       <TeamMembers />
+      <PricePackage />
     </div>
   );
 }
