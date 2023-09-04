@@ -14,7 +14,7 @@ const Hero = () => {
           }}
         >
           <div className="container mx-auto ">
-            <div className="absolute z-10 top-36 left-1/4">
+            <div className="absolute z-[1] top-36 left-1/4">
               <h1 className=" text-[125px] font-bold italic text-white select-none ">
                 WEB <br />
                 <span className="font-new text-emerald-500">DESIGN</span>
