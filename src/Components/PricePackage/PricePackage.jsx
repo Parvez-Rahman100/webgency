@@ -6,21 +6,22 @@ import join from "../../assests/join.PNG";
 
 const PricePackage = () => {
   return (
-    <div className="bg-black">
-      <div className="container mx-auto pt-20">
+    <div className="container mx-auto">
+      <div className="pt-20 w-10/12 mx-auto">
         <p className=" text-emerald-500 flex items-center justify-center mb-6 font-bold text-2xl pt-10">
           <BsArrowReturnRight /> <span className="ml-4">Pricing Packages</span>
         </p>
-        <h1 className=" text-6xl font-design mb-10 font-bold italic text-center text-white py-6">
-          Best Pricing Package For All <br /> Web Design Solutions
+        <h1 className=" lg:text-6xl text-xl font-design mb-10 font-bold italic text-center text-white py-6">
+          Best Pricing Package For All <br className="hidden sm:block" /> Web
+          Design Solutions
         </h1>
-        <div className="grid lg:grid-cols-3 grid-cols-1 gap-5">
-          <div className=" h-2/3 w-4/5">
+        <div className="lg:flex flex-row justify-between items-center gap-5">
+          <div className="w-full mb-6 lg:mb-0">
             <img src={join} alt="join pic" />
           </div>
-          <div className=" w-4/5">
-            <div className="card bg-[#0A1019]">
-              <div className="card-body rounded-none items-center text-center">
+          <div className="lg:w-4/5  w-11/12 mb-6 lg:mb-0 mx-auto">
+            <div className="card bg-[#0A1019] ">
+              <div className="card-body rounded-none items-center text-center ">
                 <h2 className="card-title">
                   <AiFillThunderbolt className=" rounded-full text-black bg-emerald-600" />
                   Monthly Package
@@ -30,27 +31,27 @@ const PricePackage = () => {
                   demoralize
                 </p>
                 <div className="flex items-start flex-col justify-center">
-                  <li className=" flex items-center mt-7">
+                  <li className=" flex items-center mt-5">
                     <GrRadialSelected className=" bg-emerald-500 rounded-full" />
                     <p className=" ml-2">Landing Page Design</p>
                   </li>
-                  <li className=" flex items-center mt-7">
+                  <li className=" flex items-center mt-5">
                     <GrRadialSelected className=" bg-emerald-500 rounded-full" />
                     <p className=" ml-2">Web Development</p>
                   </li>
-                  <li className=" flex items-center mt-7">
+                  <li className=" flex items-center mt-5">
                     <GrRadialSelected className=" bg-emerald-500 rounded-full" />
                     <p className=" ml-2">SEO Optimizations</p>
                   </li>
-                  <li className=" flex items-center mt-7">
+                  <li className=" flex items-center mt-5">
                     <GrRadialSelected className=" bg-emerald-500 rounded-full" />
                     <p className=" ml-2">Mobile Applications Design</p>
                   </li>
-                  <li className=" flex items-center mt-7">
+                  <li className=" flex items-center mt-5">
                     <GrRadialSelected className=" bg-emerald-500 rounded-full" />
                     <p className=" ml-2">Quality Assurance</p>
                   </li>
-                  <li className=" flex items-center mt-7">
+                  <li className=" flex items-center mt-5">
                     <GrRadialSelected className=" bg-emerald-500 rounded-full" />
                     <p className=" ml-2">Customs Services</p>
                   </li>
@@ -66,7 +67,7 @@ const PricePackage = () => {
               </div>
             </div>
           </div>
-          <div className=" w-4/5">
+          <div className=" lg:w-4/5 w-11/12 mb-6 lg:mb-0 mx-auto">
             <div className="card bg-[#0A1019]">
               <div className="card-body rounded-none items-center text-center">
                 <h2 className="card-title">
@@ -78,27 +79,27 @@ const PricePackage = () => {
                   demoralize
                 </p>
                 <div className="flex items-start flex-col justify-center">
-                  <li className=" flex items-center mt-7">
+                  <li className=" flex items-center mt-5">
                     <GrRadialSelected className=" bg-emerald-500 rounded-full" />
                     <p className=" ml-2">Landing Page Design</p>
                   </li>
-                  <li className=" flex items-center mt-7">
+                  <li className=" flex items-center mt-5">
                     <GrRadialSelected className=" bg-emerald-500 rounded-full" />
                     <p className=" ml-2">Web Development</p>
                   </li>
-                  <li className=" flex items-center mt-7">
+                  <li className=" flex items-center mt-5">
                     <GrRadialSelected className=" bg-emerald-500 rounded-full" />
                     <p className=" ml-2">SEO Optimizations</p>
                   </li>
-                  <li className=" flex items-center mt-7">
+                  <li className=" flex items-center mt-5">
                     <GrRadialSelected className=" bg-emerald-500 rounded-full" />
                     <p className=" ml-2">Mobile Applications Design</p>
                   </li>
-                  <li className=" flex items-center mt-7">
+                  <li className=" flex items-center mt-5">
                     <GrRadialSelected className=" bg-emerald-500 rounded-full" />
                     <p className=" ml-2">Quality Assurance</p>
                   </li>
-                  <li className=" flex items-center mt-7">
+                  <li className=" flex items-center mt-5">
                     <GrRadialSelected className=" bg-emerald-500 rounded-full" />
                     <p className=" ml-2">Customs Services</p>
                   </li>
