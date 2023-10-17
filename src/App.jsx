@@ -14,7 +14,7 @@ import WhatWeDo from "./Components/WhatWeDo/WhatWeDo";
 
 function App() {
   return (
-    <div className=" font-normal">
+    <div className=" font-normal bg-black">
       <Navbar />
       <Hero />
       <AboutCompany />

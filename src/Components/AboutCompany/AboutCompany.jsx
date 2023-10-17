@@ -5,16 +5,16 @@ import quote from "../../assests/quote.png";
 
 const AboutCompany = () => {
   return (
-    <section className="py-10 bg-black">
-      <div className=" flex  container mx-auto justify-around items-center bg-black">
-        <div>
-          <img src={quote} alt="quote" />
+    <section className="py-10 bg-black container mx-auto">
+      <div className=" lg:flex flex-row-reverse lg:justify-around justify-between items-center ">
+        <div className=" ">
+          <img className="mx-auto lg:w-full w-2/4" src={quote} alt="quote" />
         </div>
-        <div className=" w-2/4">
+        <div className=" w-2/4 mx-auto">
           <p className=" text-emerald-500 flex items-center mb-6 font-bold text-2xl">
             <BsArrowReturnRight /> <span className=" ml-4">About Company</span>
           </p>
-          <h3 className="text-6xl text-white mb-14">
+          <h3 className="text-6xl  text-white mb-14">
             Our Main Goal to Satisfied local & Global Clients
           </h3>
           <p className=" text-justify mb-14 ml-10">

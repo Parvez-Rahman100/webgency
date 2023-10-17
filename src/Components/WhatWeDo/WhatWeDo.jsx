@@ -5,8 +5,8 @@ import whatWeDo from "../../assests/whatWeDo.jpg";
 
 const WhatWeDo = () => {
   return (
-    <div className="bg-black">
-      <div className="flex justify-between container mx-auto ">
+    <div className="bg-black container mx-auto">
+      <div className="flex justify-between ">
         <div className="left w-1/2">
           <p className=" text-emerald-500 flex items-center mb-6 font-bold text-2xl">
             <BsArrowReturnRight /> <span className=" ml-4">What We Do</span>

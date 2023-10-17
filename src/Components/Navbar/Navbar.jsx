@@ -34,7 +34,7 @@ const Navbar = () => {
           {/* logo section */}
           <div className="font-bold text-2xl cursor-pointer flex items-center gap-1">
             <SiWebflow className="w-7 h-7 text-blue-600" />
-            <span>Inscribe</span>
+            <span>WebAgency</span>
           </div>
           {/* Menu icon */}
           <div
