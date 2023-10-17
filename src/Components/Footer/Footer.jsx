@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="flex justify-between items-center lg:flex-row flex-col py-10 ">
           <div className="font-bold text-2xl cursor-pointer flex items-center gap-1">
             <SiWebflow className="w-7 h-7 text-blue-600" />
-            <span>WebAgency</span>
+            <span>WebGency</span>
           </div>
           <div className="flex lg:flex-row flex-col mt-5 lg:mt-0">
             <p className="flex items-center cursor-pointer hover:text-emerald-500">
