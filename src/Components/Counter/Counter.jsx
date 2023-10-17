@@ -4,10 +4,13 @@ import { AiOutlineCheckCircle } from "react-icons/ai";
 
 const Counter = () => {
   return (
-    <div className="container mx-auto w-4/5">
-      <div className="lg:flex lg:flex-row justify-between flex-col  items-center py-36 ">
+    <div className="container mx-auto lg:w-4/5 w-7/12">
+      <div className="lg:flex lg:flex-row  justify-between flex-col  items-center py-36 ">
         <div className="mt-5 lg:mt-0 ">
-          <AiOutlineCheckCircle size={30} className="text-emerald-500" />
+          <AiOutlineCheckCircle
+            size={30}
+            className="text-emerald-500 hidden sm:block"
+          />
           <CountUp
             duration={10}
             className=" font-new lg:text-9xl text-6xl hover:text-emerald-500"
@@ -18,7 +21,10 @@ const Counter = () => {
           </p>
         </div>
         <div className="mt-5 lg:mt-0 ">
-          <AiOutlineCheckCircle size={30} className="text-emerald-500" />
+          <AiOutlineCheckCircle
+            size={30}
+            className="text-emerald-500 hidden sm:block"
+          />
           <CountUp
             duration={10}
             className=" font-new lg:text-9xl text-6xl hover:text-emerald-500"
@@ -29,7 +35,10 @@ const Counter = () => {
           </p>
         </div>
         <div className="mt-5 lg:mt-0 ">
-          <AiOutlineCheckCircle size={30} className="text-emerald-500" />
+          <AiOutlineCheckCircle
+            size={30}
+            className="text-emerald-500 hidden sm:block"
+          />
           <CountUp
             duration={10}
             className="font-new lg:text-9xl text-6xl hover:text-emerald-500"
@@ -40,7 +49,10 @@ const Counter = () => {
           </p>
         </div>
         <div className="mt-5 lg:mt-0 ">
-          <AiOutlineCheckCircle size={30} className="text-emerald-500" />
+          <AiOutlineCheckCircle
+            size={30}
+            className="text-emerald-500 hidden sm:block"
+          />
           <CountUp
             duration={10}
             className=" font-new lg:text-9xl text-6xl hover:text-emerald-500"
