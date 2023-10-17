@@ -5,7 +5,7 @@ import whatWeDo from "../../assests/whatWeDo.jpg";
 
 const WhatWeDo = () => {
   return (
-    <div className="bg-black container mx-auto">
+    <div className="container mx-auto">
       <div className="flex justify-between ">
         <div className="left w-1/2">
           <p className=" text-emerald-500 flex items-center mb-6 font-bold text-2xl">

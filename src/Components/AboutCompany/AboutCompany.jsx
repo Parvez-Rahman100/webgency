@@ -7,17 +7,18 @@ const AboutCompany = () => {
   return (
     <section className="py-10 bg-black container mx-auto">
       <div className=" lg:flex flex-row-reverse lg:justify-around justify-between items-center ">
-        <div className=" ">
+        <div>
           <img className="mx-auto lg:w-full w-2/4" src={quote} alt="quote" />
         </div>
-        <div className=" w-2/4 mx-auto">
-          <p className=" text-emerald-500 flex items-center mb-6 font-bold text-2xl">
-            <BsArrowReturnRight /> <span className=" ml-4">About Company</span>
+        <div className=" lg:w-2/4 w-full flex flex-col justify-center items-start">
+          <p className="text-emerald-500 lg:w-full w-2/3 mx-auto mt-5 lg:mt-0 flex items-center mb-6 font-bold text-2xl">
+            <BsArrowReturnRight />
+            <span className="ml-4">About Company</span>
           </p>
-          <h3 className="text-6xl  text-white mb-14">
+          <h3 className="lg:text-6xl text-xl lg:w-full w-2/3 mx-auto text-white mb-14">
             Our Main Goal to Satisfied local & Global Clients
           </h3>
-          <p className=" text-justify mb-14 ml-10">
+          <p className=" text-justify mb-14 lg:w-full w-2/3 mx-auto">
             Looking for the top web design company that creates high-converting
             websites? View the best web design agencies with their rates,
             reviews, portfolios, location, expertise, and more. Use custom
