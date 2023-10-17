@@ -10,7 +10,7 @@ const AboutCompany = () => {
         <div>
           <img className="mx-auto lg:w-full w-2/4" src={quote} alt="quote" />
         </div>
-        <div className=" lg:w-2/4 w-full flex flex-col justify-center items-start">
+        <div className="lg:w-2/4 w-full flex flex-col justify-center items-start">
           <p className="text-emerald-500 lg:w-full w-2/3 mx-auto mt-5 lg:mt-0 flex items-center mb-6 font-bold text-2xl">
             <BsArrowReturnRight />
             <span className="ml-4">About Company</span>
