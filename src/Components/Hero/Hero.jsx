@@ -5,7 +5,7 @@ import HeroImg from "../../assests/web-design-hero-min.jpg";
 
 const Hero = () => {
   return (
-    <div className="container mx-auto">
+    <div>
       <div className="bg-gradient-to-tr from-black to-[#0A1B1A] py-40 ">
         <div
           style={{
