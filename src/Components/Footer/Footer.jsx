@@ -4,7 +4,7 @@ import { SiWebflow } from "react-icons/si";
 
 const Footer = () => {
   return (
-    <div className="bg-[#0C151C] container mx-auto">
+    <div className="bg-[#0C151C]">
       <div className="w-11/12 mx-auto">
         <div className="flex justify-between items-center lg:flex-row flex-col py-10 ">
           <div className="font-bold text-2xl cursor-pointer flex items-center gap-1">
